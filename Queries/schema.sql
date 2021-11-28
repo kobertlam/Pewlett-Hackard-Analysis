@@ -16,6 +16,8 @@ CREATE TABLE employees (
      PRIMARY KEY (emp_no)
 );
 
+-- DROP TABLE employees CASCADE;
+
 CREATE TABLE dept_emp (
     emp_no INT NOT NULL,
     dept_no VARCHAR(4) NOT NULL,
