@@ -8,6 +8,11 @@ In order to help Bobby’s manager to prepare for the “silver tsunami” as ma
 
 ## Results:
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+- Based on the [unique_titles.csv](./Data/unique_titles.csv), there are 90,398 employees who were born between 1952 and 1955, and rearched the retirment age.
+- Based on the [retiring_titles.csv](./Data/retiring_titles.csv), the top 3 retiring titles are:
+    1. Senior Engineer, 29414 counts
+    2. Senior Staff, 2825 counts
+    3. Engineer, 14222 counts
 
 
 ## Summary:
