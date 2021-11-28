@@ -1,7 +1,10 @@
 # Pewlett-Hackard-Analysis
 
 ## Overview of the analysis:
-Explain the purpose of this analysis.
+In order to help Bobby’s manager to prepare for the “silver tsunami” as many current employees reach retirement age, you will perform the following tasks:
+1. determine the number of retiring employees per title
+2. identify employees who are eligible to participate in a mentorship program
+3. write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami”
 
 ## Results:
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
