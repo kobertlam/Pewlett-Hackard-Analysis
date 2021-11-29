@@ -39,7 +39,7 @@ Provide high-level responses to the following questions, then provide two additi
     ```
     ![Mentor Titles](Resources/Mentorship_titles.png)
 
-    2) Based on the SQL of Deliverable 2, and enhance to display the department name to the result, and save the results into a new table **mentorship_eligibilty_with_dept**.  It returns 1549 rows.
+    2) Based on the SQL of Deliverable 2, and enhance to display the department name to the result, and save the results into a new table **mentorship_eligibilty_with_dept**.  It returns 1549 rows.  We can use this result to further analyse which departments are these mentors belong to.
     ```
     SELECT DISTINCT ON (emp_no) emp.emp_no,
 	    emp.first_name,
@@ -62,4 +62,4 @@ Provide high-level responses to the following questions, then provide two additi
     ORDER BY emp.emp_no;
     ```
     ![Mentor Eligibilty](Resources/mentorship_eligibilty_with_dept.png)
-    
+
