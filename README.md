@@ -7,8 +7,10 @@ In order to help Bobby’s manager to prepare for the “silver tsunami” as ma
 3. write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami”
 
 ## Results:
-- Based on the [unique_titles.csv](Data/unique_titles.csv) generated from [Employee_Database_challenge.sql](Queries/Employee_Database_challenge.sql), there are **90,398** employees who were born between 1952 and 1955, and rearched the retirment age.
-- By comparing with the total number of employees (i.e. number of rows in "emplyees" table =  300024), it means about 30.13% of the employees are in retirement age!
+- From the [retirement_titles.csv](Data/retirement_titles.csv) generated from [Employee_Database_challenge.sql](Queries/Employee_Database_challenge.sql), there are **133776** records in the CSV file, and there some duplicate entries for some employees because they have switched titles over the years.
+![Retirement Titles](Resources/Retirement_titles.png)
+- Based on the [unique_titles.csv](Data/unique_titles.csv), there are **90,398** employees who were born between 1952 and 1955, and rearched the retirment age.
+- By comparing with the total number of employees (i.e. number of rows in "employees" table =  300024), it means about 30.13% of the employees are in retirement age!
 ![Total Employees](Resources/Total_Employees.png)
 - Based on the [retiring_titles.csv](Data/retiring_titles.csv), the top 3 retiring titles are:
     1. Senior Engineer, 29414 counts
