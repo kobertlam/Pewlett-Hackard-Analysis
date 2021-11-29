@@ -48,7 +48,7 @@ SELECT DISTINCT ON (emp_no) emp.emp_no,
 	de.from_date,
 	de.to_date,
 	tit.title
--- INTO mentorship_eligibilty
+INTO mentorship_eligibilty
 FROM employees as emp
 INNER JOIN dept_emp as de
 ON (emp.emp_no = de.emp_no)
